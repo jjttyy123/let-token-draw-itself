@@ -9,11 +9,19 @@ via softmax-bg into the final image — **let tokens draw themselves.**
 
 ## Overview
 
-![Architecture](https://via.placeholder.com/800x300?text=V5RL-R7+Architecture)
+![Architecture](assets/architecture.png)
 
 A 128-dim latent vector $z$ is transformed by a 4-layer Transformer decoder into a sequence of
 tokens. Each token is decoded into an RGB color and a spatial mask. All tokens are composited
 via softmax-bg (a convex combination with zero new parameters) to produce a 64×64 image.
+
+## Results
+
+**V5RL-R7 + GROUP_POS on TinyHero (left-view)**
+
+![Results](assets/results.png)
+
+Each row: Ground Truth | Generated | Token Colors | Token Masks | Accumulation
 
 **Key idea:** the Actor learns to generate pixel art purely from a reward model's scalar feedback,
 without ever seeing a real image.
