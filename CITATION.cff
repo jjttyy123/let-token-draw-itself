@@ -1,0 +1,12 @@
+cff-version: 1.2.0
+message: "If you use this code or paper, please cite it as below."
+title: "Let Token Draw Itself"
+authors:
+  - family-names: Tang
+    given-names: Yujing
+    affiliation: University of Chinese Academy of Sciences
+type: software
+doi: 10.5281/zenodo.23149096
+url: https://doi.org/10.5281/zenodo.23149096
+repository-code: https://github.com/jjttyy123/let-token-draw-itself
+license: MIT

@@ -1,8 +1,10 @@
 # Let Token Draw Itself
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.23149096.svg)](https://doi.org/10.5281/zenodo.23149096)
+
 Official code for the paper **"Let Token Draw Itself"** (Yujing Tang, University of Chinese Academy of Sciences).
 
-📄 **Paper**: [paper/TokenPainter.pdf](paper/TokenPainter.pdf)
+📄 **Paper**: [paper/TokenPainter.pdf](paper/TokenPainter.pdf) · **DOI**: [10.5281/zenodo.23149096](https://doi.org/10.5281/zenodo.23149096)
 
 TokenPainter is an autoregressive image generator in which **each token independently decodes
 into its own RGB color and spatial mask**, composited via softmax into the final image.
@@ -106,7 +108,10 @@ noisy scores in early training.
 @misc{tang2026lettoken,
   title={Let Token Draw Itself},
   author={Tang, Yujing},
-  year={2026}
+  year={2026},
+  publisher={Zenodo},
+  doi={10.5281/zenodo.23149096},
+  url={https://doi.org/10.5281/zenodo.23149096}
 }
 ```
 
